@@ -1,15 +1,14 @@
 import React from "react";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import MyInfo from "./MyInfo";
 
 export default function MyApp() {
   return (
     <div>
-      <h1>Hello World!</h1>
-      <p>This is a paragraph!</p>
-      <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-      </ul>
+      <Navbar />
+      <MyInfo />
+      <Footer />
     </div>
   );
 }
